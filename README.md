@@ -29,6 +29,19 @@ As the name implies n-bit DAC meaning it can take n-bit digital word as an input
 ![image](https://user-images.githubusercontent.com/91653986/135462518-46baeafb-58e3-4605-9fd7-9f7b9a43f6ff.png)
 
 
+# Potentiometric DAC
+
+Potentiometric DAC is one of the way where we can implement the n-bit DAC.
+
+It uses the cocept of voltage divider.
+
+
+![image](https://user-images.githubusercontent.com/91653986/135465130-e32c18f7-02b0-4524-88bd-1fcf8762cab3.png)
+
+
+
+
+
 
 
 
