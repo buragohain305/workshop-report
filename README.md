@@ -39,6 +39,12 @@ It uses the cocept of voltage divider.
 ![image](https://user-images.githubusercontent.com/91653986/135465130-e32c18f7-02b0-4524-88bd-1fcf8762cab3.png)
 
 
+To understand the working of potentiometric DAC let us consider a 2 bit potentiometric DAC ckt.
+
+
+![image](https://user-images.githubusercontent.com/91653986/135468697-9c33b6e7-76fd-4cf7-a266-e555ae268663.png)
+
+
 
 
 
