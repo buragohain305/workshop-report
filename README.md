@@ -20,9 +20,7 @@ Before going to the designing part of a DAC ckt, we must know the need of an DAC
 
 In general every signal around us are in analog form ,but for the signals to be analysed or processed by digital system we need to convert them into digital form. This is where the concept of DAC/ADC comes into picture.
 
-![image](https://user-images.githubusercontent.com/91653986/135458371-4f0e3843-e987-4424-8fbd-a8b6ea90e579.png)
-
-Fig:- An picture where we can see the conversion of analog signals to digital signals 
+It is more efficient and substantially more accurate to do signal processing in the digital domain (i.e. the language used by computers). Ultimately though, things that interact directly with humans do so in the analog domain (i.e. humans hear sound, not ones and zeros). Therefore, the purpose of a DAC is to take digital domain signal processing results and convert them into a form that is directly or indirectly amenable to humans.
 
 
 
