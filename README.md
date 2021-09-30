@@ -45,6 +45,19 @@ To understand the working of potentiometric DAC let us consider a 2 bit potentio
 ![image](https://user-images.githubusercontent.com/91653986/135468697-9c33b6e7-76fd-4cf7-a266-e555ae268663.png)
 
 
+ so in this 2bit potentiometric ckt let us consider Vref as 4V 
+Since R1,R2,R3,R4 are in series so, the voltage Vref will equally distrubuted, i.e V3=3V, V2=2V, V1=1V, V0=0V.
+So here the 2 digital inputs are D0 and D1 where D0 is the least significant bit and D1 is the most significant bit.
+
+So let us consider an combination of digital input as  1 0  ,i.e D0=1, D1=0.
+So accordingly switch D0 will be closed and D1’ will be closed as a result at output we get 1V
+
+Similarly if we cosider 1 1 , i.e D0=1, D1=1
+Switch D0 and D1 both will be closed giving 3v at output.
+
+![image](https://user-images.githubusercontent.com/91653986/135479682-bb1909ca-20cc-4f43-b2b6-6efddae02a38.png)
+
+
 
 
 
