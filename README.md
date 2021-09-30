@@ -57,6 +57,14 @@ Switch D0 and D1 both will be closed giving 3v at output.
 
 ![image](https://user-images.githubusercontent.com/91653986/135479682-bb1909ca-20cc-4f43-b2b6-6efddae02a38.png)
 
+# Designing of basic switch using eSim and simulation
+
+![image](https://user-images.githubusercontent.com/91653986/135518045-e1aaf29a-2094-481a-bca7-c01c075e9960.png)
+
+
+
+![image](https://user-images.githubusercontent.com/91653986/135518067-cff879d3-bcd4-4a86-9683-36e508418f71.png)
+
 
 
 
