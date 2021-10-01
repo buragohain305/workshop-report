@@ -1,16 +1,18 @@
-# workshop-report
+# workshop-report on short time training program on VLSI
 # Table of contents
 1.	Day1
 
- a. Introduction
+     a. Introduction
  
- b.  Basic 10-bit DAC design
- 
- c. Basic switch design
- 
- d. labelling and simulation using eSim
+     b.  Basic 10-bit DAC design
+   
+     c. Basic switch design
+   
+     d. labelling and simulation using eSim
  
 2.   Day2
+
+     a. Basic 2-bit DAC implementation using esim and sky130 PDKS
 
 # Day 1
 
@@ -59,18 +61,45 @@ Switch D0 and D1 both will be closed giving 3v at output.
 
 # Designing of basic switch using eSim and simulation
 
-![image](https://user-images.githubusercontent.com/91653986/135518045-e1aaf29a-2094-481a-bca7-c01c075e9960.png)
+![image](https://user-images.githubusercontent.com/91653986/135657329-ab4c5be2-16e8-40be-a701-7831af662ce6.png)
 
 
 
-![image](https://user-images.githubusercontent.com/91653986/135518067-cff879d3-bcd4-4a86-9683-36e508418f71.png)
-
-
-
-
+![Screenshot (176)](https://user-images.githubusercontent.com/91653986/135659253-153982df-f912-40a3-9274-2094418891b4.png)
 
 
 
 
+# Working of basic switch
+From above simulation and schematic we can observe that when the digital input is high then output of 1st inverter ckt  will be 0 and accordingly the output of 2nd  inverter ckt will be 1
+
+
+
+![image](https://user-images.githubusercontent.com/91653986/135658203-89471ddb-e930-40c1-8dd6-9d61db53b5ce.png)
+
+
+So in below section of the ckt input for  1st inverter ckt  is 0 so o/p will be vin_1 
+And input for 2nd inverter ckt is 1 hence nmos will be on as a result giving o/p as vin_1
+
+So when digital input is high we get an high reference voltage(vin_1) and vice versa.  
+
+# Basic 2-bit DAC implementation using esim and sky130 PDKS
+
+
+
+
+![image](https://user-images.githubusercontent.com/91653986/135658931-6a22c266-cbe7-4e3c-9482-8ece2e458e00.png)
+
+schematic of 2-bit DAC
+
+
+
+![Screenshot (177)](https://user-images.githubusercontent.com/91653986/135659634-580ca5ac-440f-475a-bfeb-0416c1e85846.png)
+
+simulation of 2-bit DAC
+
+
+# conclusiom
+During this sttp on VLSI I got the opputinity to learn the way to desing or simulate a ckt using eSim and Sky130 PDKS which i think would definitely going to be an important skill for my coming my future or career , so in this report i have mentioned about the designing and simulation of basic switch and 2bit DAC. similarly i would definitely going to implement this knowledge and skills in designing more such ckts like higher order DACs.  
 
 
